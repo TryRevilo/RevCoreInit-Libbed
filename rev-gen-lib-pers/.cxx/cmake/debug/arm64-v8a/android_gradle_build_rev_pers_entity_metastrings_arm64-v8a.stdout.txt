@@ -1,1 +1,38 @@
-ninja: no work to do.
+[1/11] Building C object CMakeFiles/rev_pers_lib_includes.dir/src/main/cpp/rev_clib_sqlite_pers/rev_pers_libs_ext/libs_cust_rev/rev_gen_functions.c.o
+[2/11] Building C object CMakeFiles/rev_pers_lib_includes.dir/src/main/cpp/rev_clib_sqlite_pers/rev_pers_libs_ext/libs_cust_rev/rev_list/rev_linked_list.c.o
+[3/11] Building C object CMakeFiles/rev_pers_lib_includes.dir/src/main/cpp/rev_clib_sqlite_pers/rev_pers_libs_ext/libs_ext/cJSON/cJSON.c.o
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_libs_ext/libs_cust_rev/rev_gen_functions.c:55:48: warning: incompatible pointer types passing 'struct tm **' to parameter of type 'const struct tm *'; remove & [-Wincompatible-pointer-types]
+    strftime( formatted_date, 40, "%B %d, %Y", &tm );
+                                               ^~~
+/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/time.h:84:78: note: passing argument to parameter '__tm' here
+size_t strftime(char* __buf, size_t __n, const char* __fmt, const struct tm* __tm) __strftimelike(3);
+                                                                             ^
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_libs_ext/libs_cust_rev/rev_gen_functions.c:58:14: warning: incompatible pointer types passing 'char *[80]' to parameter of type 'char *' [-Wincompatible-pointer-types]
+    strftime(buffer,80,"%x - %I:%M%p", tm);
+             ^~~~~~
+/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/time.h:84:23: note: passing argument to parameter '__buf' here
+size_t strftime(char* __buf, size_t __n, const char* __fmt, const struct tm* __tm) __strftimelike(3);
+                      ^
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_libs_ext/libs_cust_rev/rev_gen_functions.c:60:19: warning: incompatible pointer types passing 'char *[80]' to parameter of type 'const char *' [-Wincompatible-pointer-types]
+    return strdup(buffer);
+                  ^~~~~~
+/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/string.h:110:26: note: passing argument to parameter '__s' here
+char* strdup(const char* __s);
+                         ^
+3 warnings generated.
+[4/11] Linking C shared library ../../../../build/intermediates/cmake/debug/obj/arm64-v8a/librev_pers_lib_includes.so
+[5/11] Building C object CMakeFiles/rev_db_init.dir/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_db_init/rev_db_init.c.o
+[6/11] Linking C shared library ../../../../build/intermediates/cmake/debug/obj/arm64-v8a/librev_db_init.so
+[7/11] Building C object CMakeFiles/rev_pers_entity_metastrings.dir/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_rev_entity_metastrings/rev_pers_lib_create/db_create/rev_entity_metastring_feedreaderdbhelper.c.o
+[8/11] Building C object CMakeFiles/rev_pers_entity_metastrings.dir/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_rev_entity_metastrings/rev_pers_lib_create/db_create/FEED_ENTRY_REV_ENTITY_METASTRING.c.o
+[9/11] Building C object CMakeFiles/rev_pers_entity_metastrings.dir/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_rev_entity_metastrings/rev_pers_lib_create/rev_pers_create/rev_pers_rev_entity_metastrings.c.o
+[10/11] Building C object CMakeFiles/rev_pers_entity_metastrings.dir/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_rev_entity_metastrings/rev_pers_read/rev_pers_read_rev_entity_metastrings.c.o
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_rev_entity_metastrings/rev_pers_lib_create/db_create/FEED_ENTRY_REV_ENTITY_METASTRING.c:15:13: warning: address of stack memory associated with local variable 'feedEntryRevEntityMetadata' returned [-Wreturn-stack-address]
+    return &feedEntryRevEntityMetadata;
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_rev_entity_metastrings/rev_pers_read/rev_pers_read_rev_entity_metastrings.c:130:13: warning: address of stack memory associated with local variable 'list' returned [-Wreturn-stack-address]
+    return &list;
+            ^~~~
+1 warning generated.
+[11/11] Linking C shared library ../../../../build/intermediates/cmake/debug/obj/arm64-v8a/librev_pers_entity_metastrings.so

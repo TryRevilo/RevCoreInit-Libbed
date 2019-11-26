@@ -1,0 +1,4 @@
+include ':rev_core_init', ':rev-lib-gen-functions', ':rev-lib-views', ':rev-lib-plugin-loader', ':rev-lib-persistence', ':rev-gen-lib-pers', ':rev_v8', ':rev-lib-core-views', ':rev-lib-core-app-plugins'
+
+include ':androidpluginslibrary'
+project(':androidpluginslibrary').projectDir = new File(settingsDir, '../AndroidPlugins/androidpluginslibrary')

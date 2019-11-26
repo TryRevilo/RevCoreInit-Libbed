@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#97b498</color>
+    <color name="rcolorAccent_OPAQUE">#BF97b498</color>
+
+    <color name="colorTransparent">@android:color/transparent</color>
+
+    <color name="rev_default_background">#fafafa</color>
+
+    <!-- https://www.color-hex.com/color/d3d3d3 -->
+
+    <color name="rev_default_light">#f9f9f9</color>
+
+    <color name="revWhite">#FFF</color>
+    <color name="greyDark">#aeaeae</color>
+
+    <color name="rev_work_btn">#9fa8da</color>
+    <color name="rev_academic_btn">#64b5f6</color>
+    <color name="rev_social_btn">#b39ddb</color>
+    <color name="rev_family_btn">#aed581</color>
+    <color name="rev_cousins_btn">#9e9e9e</color>
+
+
+    <!-- OPAQUE -->
+    <color name="black_OPAQUE">#80000000</color>
+    <color name="white_OPAQUE">#80FFFFFF</color>
+    <color name="white_DARK_OPAQUE">#CCFFFFFF</color>
+
+    <!-- GREY -->
+    <color name="greyExtraLight">#f5f5f5</color>
+
+    <!-- GREEN -->
+
+    <color name="revGreen">#1b5e20</color>
+    <color name="revGreenDark">#003300</color>
+    <color name="revGreenLight">#4c8c4a</color>
+    <color name="revGreenLight_OPAQUE">#BF4c8c4a</color>
+    <color name="revLightGreen">#7da453</color>
+    <color name="revExtraLightGreen">#aed581</color>
+    <color name="revBrightGreen">#b2ff59</color>
+    <color name="revExtraLightGreen_OPAQUE">#BFaed581</color>
+
+    <!-- YELLOW -->
+
+    <color name="rev_yellow_primary">#fff9c4</color>
+
+    <!-- RED -->
+
+    <color name="rev_red">#d50000</color>
+    <color name="revColorAccentRed">#ff0004</color>
+
+    <color name="revBlack">#000</color>
+    <color name="darkText">#444</color>
+    <color name="searchBorderColor">#90caf9</color>
+    <color name="revPurple">#4a148c</color>
+    <color name="extraLightPink">#fce4ec</color>
+
+    <!-- Deep Purple -->
+    <color name="deep_purple_primary_extra_light">#ede7f6</color>
+    <color name="deep_purple_primary">#b388ff</color>
+    <color name="deep_purple_light">#e7b9ff</color>
+    <color name="deep_purple_dark">#805acb</color>
+
+    <!-- Lime -->
+    <color name="lime_primary">#827717</color>
+    <color name="lime_primary_OPAQUE">#BF827717</color>
+    <color name="lime_light">#b4a647</color>
+    <color name="lime_dark">#524c00</color>
+
+    <!-- Blue Grey -->
+    <color name="blue_grey_primary">#455a64</color>
+    <color name="blue_grey_light">#718792</color>
+    <color name="blue_grey_dark">#1c313a</color>
+
+    <!-- Light Green -->
+    <color name="light_green_primary">#33691e</color>
+    <color name="ight_green_light">#629749</color>
+    <color name="ight_green_dark">#003d00</color>
+
+    <!-- Teal -->
+    <color name="teal_primary">#b1ddd9</color>
+    <color name="teal_light">#e4ffff</color>
+    <color name="teal_dark">#81aba8</color>
+
+    <color name="teal_100_dark">#82ada9</color>
+    <color name="teal_200_dark">#4f9a94</color>
+    <color name="teal_300_dark">#00867d</color>
+    <color name="teal_400_dark">#00766c</color>
+    <color name="teal_500_dark">#00675b</color>
+
+    <!-- REV LOGGED OUT -->
+    <color name="blue">#0099cc</color>
+
+    <!-- TAB COLORS -->
+    <color name="range">#90caf9</color>
+    <color name="gray_text">#616161</color>
+    <color name="actionBarDrawerToggleColor">#97b498</color>
+    <color name="revColorAccentLight">#e3f2fd</color>
+    <color name="revColorAccentLightAlt">#f0f4c3</color>
+
+    <color name="black_overlay">#66000000</color>
+</resources>

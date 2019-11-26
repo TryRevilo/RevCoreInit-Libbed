@@ -1,0 +1,46 @@
+
+{
+	"buildFiles" : [ "/Users/oliver/Downloads/rev_and/RevCampAnn/rev_v8/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/cmake/3.6.4111459/bin/cmake --build /Users/oliver/Downloads/rev_and/RevCampAnn/rev_v8/.cxx/cmake/release/armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/cmake/3.6.4111459/bin/cmake --build /Users/oliver/Downloads/rev_and/RevCampAnn/rev_v8/.cxx/cmake/release/armeabi-v7a --target native-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I../../../../libs/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++0x -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev_v8/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev_v8/.cxx/cmake/release/armeabi-v7a"
+				}
+			],
+			"output" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev_v8/build/intermediates/cmake/release/obj/armeabi-v7a/libnative-lib.so",
+			"toolchain" : "7370863124659855753"
+		},
+		"v8_base-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "v8_base",
+			"buildType" : "release",
+			"output" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev_v8/libs/armeabi-v7a/libv8.a",
+			"toolchain" : "7370863124659855753"
+		}
+	},
+	"toolchains" : 
+	{
+		"7370863124659855753" : 
+		{
+			"cCompilerExecutable" : "/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

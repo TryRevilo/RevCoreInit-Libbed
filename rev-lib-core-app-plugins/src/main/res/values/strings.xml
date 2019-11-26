@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">REv coRE</string>
+
+    <string name="comment">commENT . . .</string>
+    <string name="rev_entity_desc">ENTiTy DEscRipTioN</string>
+    <string name="full_user_names">Full usER NAmEs</string>
+    <string name="rev_entity_icon_desc">ENTiTy icoN DEsc</string>
+
+    <!-- START REV USER PROFILE -->
+    <string name="entity_info">iNFo</string>
+    <string name="user_profile">pRoFiLE</string>
+    <string name="user_locale">Locale</string>
+    <string name="edit_info">EDiT iNFo</string>
+    <string name="user_sex_title">sEx</string>
+    <string name="user_height_title">Height</string>
+    <string name="user_race_title">RAcE \\ EThniciTy</string>
+    <!-- END REV USER PROFILE -->
+
+    <!-- START REV CONTACT US -->
+    <string name="contact_us">coNTAct Us</string>
+    <string name="ICreateRevPluggableMenuItem">ICreateRevPluggableMenuItem</string>
+    <!-- END REV CONTACT US -->
+
+</resources>

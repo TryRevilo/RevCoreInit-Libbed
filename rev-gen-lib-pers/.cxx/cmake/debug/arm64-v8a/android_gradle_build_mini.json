@@ -1,0 +1,117 @@
+{
+  "buildFiles": [
+    "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/cmake/3.6.4111459/bin/cmake --build /Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/debug/arm64-v8a --target clean"
+  ],
+  "libraries": {
+    "rev_pers_entity_metastrings-Debug-arm64-v8a": {
+      "artifactName": "rev_pers_entity_metastrings",
+      "buildCommand": "/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/cmake/3.6.4111459/bin/cmake --build /Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/debug/arm64-v8a --target rev_pers_entity_metastrings",
+      "abi": "arm64-v8a",
+      "output": "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/build/intermediates/cmake/debug/obj/arm64-v8a/librev_pers_entity_metastrings.so"
+    },
+    "rev-pers-lib-db-read-Debug-arm64-v8a": {
+      "artifactName": "rev-pers-lib-db-read",
+      "buildCommand": "/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/cmake/3.6.4111459/bin/cmake --build /Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/debug/arm64-v8a --target rev-pers-lib-db-read",
+      "abi": "arm64-v8a",
+      "output": "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/build/intermediates/cmake/debug/obj/arm64-v8a/librev-pers-lib-db-read.so"
+    },
+    "rev_pers_rev_timeline-Debug-arm64-v8a": {
+      "artifactName": "rev_pers_rev_timeline",
+      "buildCommand": "/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/cmake/3.6.4111459/bin/cmake --build /Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/debug/arm64-v8a --target rev_pers_rev_timeline",
+      "abi": "arm64-v8a",
+      "output": "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/build/intermediates/cmake/debug/obj/arm64-v8a/librev_pers_rev_timeline.so"
+    },
+    "rev_pers_lib_includes-Debug-arm64-v8a": {
+      "artifactName": "rev_pers_lib_includes",
+      "buildCommand": "/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/cmake/3.6.4111459/bin/cmake --build /Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/debug/arm64-v8a --target rev_pers_lib_includes",
+      "abi": "arm64-v8a",
+      "output": "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/build/intermediates/cmake/debug/obj/arm64-v8a/librev_pers_lib_includes.so"
+    },
+    "rev_pers_rev_user_entity-Debug-arm64-v8a": {
+      "artifactName": "rev_pers_rev_user_entity",
+      "buildCommand": "/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/cmake/3.6.4111459/bin/cmake --build /Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/debug/arm64-v8a --target rev_pers_rev_user_entity",
+      "abi": "arm64-v8a",
+      "output": "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/build/intermediates/cmake/debug/obj/arm64-v8a/librev_pers_rev_user_entity.so"
+    },
+    "rev_pers_rev_group_entity-Debug-arm64-v8a": {
+      "artifactName": "rev_pers_rev_group_entity",
+      "buildCommand": "/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/cmake/3.6.4111459/bin/cmake --build /Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/debug/arm64-v8a --target rev_pers_rev_group_entity",
+      "abi": "arm64-v8a",
+      "output": "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/build/intermediates/cmake/debug/obj/arm64-v8a/librev_pers_rev_group_entity.so"
+    },
+    "rev_pers_rev_object_entity-Debug-arm64-v8a": {
+      "artifactName": "rev_pers_rev_object_entity",
+      "buildCommand": "/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/cmake/3.6.4111459/bin/cmake --build /Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/debug/arm64-v8a --target rev_pers_rev_object_entity",
+      "abi": "arm64-v8a",
+      "output": "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/build/intermediates/cmake/debug/obj/arm64-v8a/librev_pers_rev_object_entity.so"
+    },
+    "rev_pers_rev_entity-Debug-arm64-v8a": {
+      "artifactName": "rev_pers_rev_entity",
+      "buildCommand": "/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/cmake/3.6.4111459/bin/cmake --build /Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/debug/arm64-v8a --target rev_pers_rev_entity",
+      "abi": "arm64-v8a",
+      "output": "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/build/intermediates/cmake/debug/obj/arm64-v8a/librev_pers_rev_entity.so"
+    },
+    "sqlite3-native-lib-Debug-arm64-v8a": {
+      "artifactName": "sqlite3-native-lib",
+      "buildCommand": "/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/cmake/3.6.4111459/bin/cmake --build /Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/debug/arm64-v8a --target sqlite3-native-lib",
+      "abi": "arm64-v8a",
+      "output": "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/build/intermediates/cmake/debug/obj/arm64-v8a/libsqlite3-native-lib.so"
+    },
+    "rev-pers-lib-db-update-Debug-arm64-v8a": {
+      "artifactName": "rev-pers-lib-db-update",
+      "buildCommand": "/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/cmake/3.6.4111459/bin/cmake --build /Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/debug/arm64-v8a --target rev-pers-lib-db-update",
+      "abi": "arm64-v8a",
+      "output": "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/build/intermediates/cmake/debug/obj/arm64-v8a/librev-pers-lib-db-update.so"
+    },
+    "rev-pers-lib-db-delete-Debug-arm64-v8a": {
+      "artifactName": "rev-pers-lib-db-delete",
+      "buildCommand": "/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/cmake/3.6.4111459/bin/cmake --build /Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/debug/arm64-v8a --target rev-pers-lib-db-delete",
+      "abi": "arm64-v8a",
+      "output": "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/build/intermediates/cmake/debug/obj/arm64-v8a/librev-pers-lib-db-delete.so"
+    },
+    "rev_db_init-Debug-arm64-v8a": {
+      "artifactName": "rev_db_init",
+      "buildCommand": "/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/cmake/3.6.4111459/bin/cmake --build /Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/debug/arm64-v8a --target rev_db_init",
+      "abi": "arm64-v8a",
+      "output": "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/build/intermediates/cmake/debug/obj/arm64-v8a/librev_db_init.so"
+    },
+    "rev_pers_rev_entity_relationships-Debug-arm64-v8a": {
+      "artifactName": "rev_pers_rev_entity_relationships",
+      "buildCommand": "/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/cmake/3.6.4111459/bin/cmake --build /Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/debug/arm64-v8a --target rev_pers_rev_entity_relationships",
+      "abi": "arm64-v8a",
+      "output": "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/build/intermediates/cmake/debug/obj/arm64-v8a/librev_pers_rev_entity_relationships.so"
+    },
+    "rev_pers_rev_entity_annotations-Debug-arm64-v8a": {
+      "artifactName": "rev_pers_rev_entity_annotations",
+      "buildCommand": "/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/cmake/3.6.4111459/bin/cmake --build /Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/debug/arm64-v8a --target rev_pers_rev_entity_annotations",
+      "abi": "arm64-v8a",
+      "output": "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/build/intermediates/cmake/debug/obj/arm64-v8a/librev_pers_rev_entity_annotations.so"
+    },
+    "rev-pers-lib-db-create-Debug-arm64-v8a": {
+      "artifactName": "rev-pers-lib-db-create",
+      "buildCommand": "/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/cmake/3.6.4111459/bin/cmake --build /Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/debug/arm64-v8a --target rev-pers-lib-db-create",
+      "abi": "arm64-v8a",
+      "output": "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/build/intermediates/cmake/debug/obj/arm64-v8a/librev-pers-lib-db-create.so"
+    },
+    "rev_lib_connectors-Debug-arm64-v8a": {
+      "artifactName": "rev_lib_connectors",
+      "buildCommand": "/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/cmake/3.6.4111459/bin/cmake --build /Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/debug/arm64-v8a --target rev_lib_connectors",
+      "abi": "arm64-v8a",
+      "output": "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/build/intermediates/cmake/debug/obj/arm64-v8a/librev_lib_connectors.so"
+    },
+    "rev_pers_rev_entity_metadata-Debug-arm64-v8a": {
+      "artifactName": "rev_pers_rev_entity_metadata",
+      "buildCommand": "/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/cmake/3.6.4111459/bin/cmake --build /Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/debug/arm64-v8a --target rev_pers_rev_entity_metadata",
+      "abi": "arm64-v8a",
+      "output": "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/build/intermediates/cmake/debug/obj/arm64-v8a/librev_pers_rev_entity_metadata.so"
+    },
+    "sqlite3_base-Debug-arm64-v8a": {
+      "artifactName": "sqlite3_base",
+      "abi": "arm64-v8a",
+      "output": "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/libs/arm64-v8a/libsqlite3.a"
+    }
+  }
+}

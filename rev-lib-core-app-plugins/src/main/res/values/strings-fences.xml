@@ -1,0 +1,13 @@
+<resources>
+    <string name="email_or_phone_number">EmAiL oR pHoNE #</string>
+    <string name="password_hint_txt">****</string>
+    <string name="log_in">Log in</string>
+    <string name="create_new_account">siGN up</string>
+    <string name="full_names">FuLL NAmEs</string>
+    <string name="user_name">usERNAmE</string>
+    <string name="phone">pHoNE #</string>
+    <string name="password">pAsswoRD</string>
+    <string name="confirm_password">coNFiRm pAsswoRD</string>
+    <string name="sign_up">siGN up</string>
+    <string name="me">Me</string>
+</resources>

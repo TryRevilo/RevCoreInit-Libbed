@@ -1,0 +1,46 @@
+
+{
+	"buildFiles" : [ "/Users/oliver/Downloads/rev_and/RevCampAnn/rev_v8/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/cmake/3.6.4111459/bin/cmake --build /Users/oliver/Downloads/rev_and/RevCampAnn/rev_v8/.cxx/cmake/release/x86 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Release-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/cmake/3.6.4111459/bin/cmake --build /Users/oliver/Downloads/rev_and/RevCampAnn/rev_v8/.cxx/cmake/release/x86 --target native-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I../../../../libs/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++0x -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev_v8/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev_v8/.cxx/cmake/release/x86"
+				}
+			],
+			"output" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev_v8/build/intermediates/cmake/release/obj/x86/libnative-lib.so",
+			"toolchain" : "7370863124659855753"
+		},
+		"v8_base-Release-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "v8_base",
+			"buildType" : "release",
+			"output" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev_v8/libs/x86/libv8.a",
+			"toolchain" : "7370863124659855753"
+		}
+	},
+	"toolchains" : 
+	{
+		"7370863124659855753" : 
+		{
+			"cCompilerExecutable" : "/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

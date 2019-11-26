@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Rev Lib Persistence</string>
+    <string name="rev_entity_icon_desc">Entity Icon Description</string>
+    <string name="rev_entity_desc">Entity Description</string>
+    <string name="full_user_names">Full User Names</string>
+    <string name="comment">Comment</string>
+</resources>

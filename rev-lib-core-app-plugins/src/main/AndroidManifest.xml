@@ -1,0 +1,15 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
+    package="rev.ca.rev_lib_core_app_plugins">
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true">
+
+        <activity android:name=".rev_kiwi_plugin.rev_plugin_views.rev_pluggable_menues.RevKiwiPluggableMenuItem$CheckMate" />
+        <activity android:name=".rev_pics_plugin.rev_plugin_views.rev_pluggable_menus.RevDirectPicSelectPluggableMenuItem$CheckMate" />
+
+    </application>
+
+</manifest>

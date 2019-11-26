@@ -1,0 +1,572 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/cmake/3.6.4111459/bin/cmake --build /Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"rev-pers-lib-db-create-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "rev-pers-lib-db-create",
+			"buildCommand" : "/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/cmake/3.6.4111459/bin/cmake --build /Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a --target rev-pers-lib-db-create",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Drev_pers_lib_db_create_EXPORTS -I../../../../libs/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++0x -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/jni/rev-pers-lib-create.cpp",
+					"workingDirectory" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Drev_pers_lib_db_create_EXPORTS -I../../../../libs/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++0x -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/jni/rev_metadata_jni_loader.cpp",
+					"workingDirectory" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Drev_pers_lib_db_create_EXPORTS -I../../../../libs/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++0x -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/jni/rev_annotation_jni_loader.cpp",
+					"workingDirectory" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Drev_pers_lib_db_create_EXPORTS -I../../../../libs/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++0x -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/jni/rev_pers_entity_type_init/rev_pers_object_init.cpp",
+					"workingDirectory" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a"
+				}
+			],
+			"output" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/build/intermediates/cmake/release/obj/arm64-v8a/librev-pers-lib-db-create.so",
+			"toolchain" : "7370863124659855753"
+		},
+		"rev-pers-lib-db-delete-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "rev-pers-lib-db-delete",
+			"buildCommand" : "/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/cmake/3.6.4111459/bin/cmake --build /Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a --target rev-pers-lib-db-delete",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Drev_pers_lib_db_delete_EXPORTS -I../../../../libs/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++0x -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/jni/rev-pers-lib-delete.cpp",
+					"workingDirectory" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a"
+				}
+			],
+			"output" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/build/intermediates/cmake/release/obj/arm64-v8a/librev-pers-lib-db-delete.so",
+			"toolchain" : "7370863124659855753"
+		},
+		"rev-pers-lib-db-read-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "rev-pers-lib-db-read",
+			"buildCommand" : "/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/cmake/3.6.4111459/bin/cmake --build /Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a --target rev-pers-lib-db-read",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Drev_pers_lib_db_read_EXPORTS -I../../../../libs/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++0x -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/jni/rev-pers-lib-read.cpp",
+					"workingDirectory" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a"
+				}
+			],
+			"output" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/build/intermediates/cmake/release/obj/arm64-v8a/librev-pers-lib-db-read.so",
+			"toolchain" : "7370863124659855753"
+		},
+		"rev-pers-lib-db-update-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "rev-pers-lib-db-update",
+			"buildCommand" : "/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/cmake/3.6.4111459/bin/cmake --build /Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a --target rev-pers-lib-db-update",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Drev_pers_lib_db_update_EXPORTS -I../../../../libs/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++0x -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/jni/rev-pers-lib-update.cpp",
+					"workingDirectory" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a"
+				}
+			],
+			"output" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/build/intermediates/cmake/release/obj/arm64-v8a/librev-pers-lib-db-update.so",
+			"toolchain" : "7370863124659855753"
+		},
+		"rev_db_init-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "rev_db_init",
+			"buildCommand" : "/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/cmake/3.6.4111459/bin/cmake --build /Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a --target rev_db_init",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Drev_db_init_EXPORTS -I../../../../libs/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_db_init/rev_db_init.c",
+					"workingDirectory" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a"
+				}
+			],
+			"output" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/build/intermediates/cmake/release/obj/arm64-v8a/librev_db_init.so",
+			"toolchain" : "7370863124659855753"
+		},
+		"rev_lib_connectors-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "rev_lib_connectors",
+			"buildCommand" : "/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/cmake/3.6.4111459/bin/cmake --build /Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a --target rev_lib_connectors",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Drev_lib_connectors_EXPORTS -I../../../../libs/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_pers_lib_connectors/rev_perslib_create_init.c",
+					"workingDirectory" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a"
+				}
+			],
+			"output" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/build/intermediates/cmake/release/obj/arm64-v8a/librev_lib_connectors.so",
+			"toolchain" : "7370863124659855753"
+		},
+		"rev_pers_entity_metastrings-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "rev_pers_entity_metastrings",
+			"buildCommand" : "/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/cmake/3.6.4111459/bin/cmake --build /Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a --target rev_pers_entity_metastrings",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Drev_pers_entity_metastrings_EXPORTS -I../../../../libs/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_rev_entity_metastrings/rev_pers_lib_create/db_create/FEED_ENTRY_REV_ENTITY_METASTRING.c",
+					"workingDirectory" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Drev_pers_entity_metastrings_EXPORTS -I../../../../libs/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_rev_entity_metastrings/rev_pers_lib_create/db_create/rev_entity_metastring_feedreaderdbhelper.c",
+					"workingDirectory" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Drev_pers_entity_metastrings_EXPORTS -I../../../../libs/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_rev_entity_metastrings/rev_pers_lib_create/rev_pers_create/rev_pers_rev_entity_metastrings.c",
+					"workingDirectory" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Drev_pers_entity_metastrings_EXPORTS -I../../../../libs/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_rev_entity_metastrings/rev_pers_read/rev_pers_read_rev_entity_metastrings.c",
+					"workingDirectory" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a"
+				}
+			],
+			"output" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/build/intermediates/cmake/release/obj/arm64-v8a/librev_pers_entity_metastrings.so",
+			"toolchain" : "7370863124659855753"
+		},
+		"rev_pers_lib_includes-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "rev_pers_lib_includes",
+			"buildCommand" : "/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/cmake/3.6.4111459/bin/cmake --build /Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a --target rev_pers_lib_includes",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Drev_pers_lib_includes_EXPORTS -I../../../../libs/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_libs_ext/libs_cust_rev/rev_gen_functions.c",
+					"workingDirectory" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Drev_pers_lib_includes_EXPORTS -I../../../../libs/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_libs_ext/libs_cust_rev/rev_list/rev_linked_list.c",
+					"workingDirectory" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Drev_pers_lib_includes_EXPORTS -I../../../../libs/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_libs_ext/libs_ext/cJSON/cJSON.c",
+					"workingDirectory" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a"
+				}
+			],
+			"output" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/build/intermediates/cmake/release/obj/arm64-v8a/librev_pers_lib_includes.so",
+			"toolchain" : "7370863124659855753"
+		},
+		"rev_pers_rev_entity-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "rev_pers_rev_entity",
+			"buildCommand" : "/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/cmake/3.6.4111459/bin/cmake --build /Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a --target rev_pers_rev_entity",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Drev_pers_rev_entity_EXPORTS -I../../../../libs/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_entity/init_rev_pers_rev_entity.c",
+					"workingDirectory" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Drev_pers_rev_entity_EXPORTS -I../../../../libs/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++0x -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_entity/rev_table_create.cpp",
+					"workingDirectory" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Drev_pers_rev_entity_EXPORTS -I../../../../libs/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_entity/rev_pers_delete/rev_pers_delete.c",
+					"workingDirectory" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Drev_pers_rev_entity_EXPORTS -I../../../../libs/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_entity/rev_pers_lib_create/db_create/FEED_ENTRY_REV_ENTITY.c",
+					"workingDirectory" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Drev_pers_rev_entity_EXPORTS -I../../../../libs/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_entity/rev_pers_lib_create/db_create/rev_entity_feedreaderdbhelper.c",
+					"workingDirectory" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Drev_pers_rev_entity_EXPORTS -I../../../../libs/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_entity/rev_pers_lib_create/rev_pers_create/rev_pers_rev_entity.c",
+					"workingDirectory" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Drev_pers_rev_entity_EXPORTS -I../../../../libs/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_entity/rev_pers_lib_read/rev_pers_read/rev_pers_read.c",
+					"workingDirectory" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Drev_pers_rev_entity_EXPORTS -I../../../../libs/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_entity/rev_pers_update/rev_pers_update.c",
+					"workingDirectory" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a"
+				}
+			],
+			"output" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/build/intermediates/cmake/release/obj/arm64-v8a/librev_pers_rev_entity.so",
+			"toolchain" : "7370863124659855753"
+		},
+		"rev_pers_rev_entity_annotations-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "rev_pers_rev_entity_annotations",
+			"buildCommand" : "/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/cmake/3.6.4111459/bin/cmake --build /Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a --target rev_pers_rev_entity_annotations",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Drev_pers_rev_entity_annotations_EXPORTS -I../../../../libs/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_rev_entity_annotations/rev_pers_lib_create/db_create/FEED_ENTRY_REV_ENTITY_ANNOTATIONS.c",
+					"workingDirectory" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Drev_pers_rev_entity_annotations_EXPORTS -I../../../../libs/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_rev_entity_annotations/rev_pers_lib_create/db_create/rev_entity_annotation_feedreaderdbhelper.c",
+					"workingDirectory" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Drev_pers_rev_entity_annotations_EXPORTS -I../../../../libs/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_rev_entity_annotations/rev_pers_lib_create/rev_pers_create/rev_pers_annotation.c",
+					"workingDirectory" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Drev_pers_rev_entity_annotations_EXPORTS -I../../../../libs/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_rev_entity_annotations/rev_pers_read/rev_pers_read_rev_entity_annotations.c",
+					"workingDirectory" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Drev_pers_rev_entity_annotations_EXPORTS -I../../../../libs/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_rev_entity_annotations/rev_pers_update/rev_pers_update_rev_entity_ann.c",
+					"workingDirectory" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a"
+				}
+			],
+			"output" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/build/intermediates/cmake/release/obj/arm64-v8a/librev_pers_rev_entity_annotations.so",
+			"toolchain" : "7370863124659855753"
+		},
+		"rev_pers_rev_entity_metadata-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "rev_pers_rev_entity_metadata",
+			"buildCommand" : "/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/cmake/3.6.4111459/bin/cmake --build /Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a --target rev_pers_rev_entity_metadata",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Drev_pers_rev_entity_metadata_EXPORTS -I../../../../libs/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_rev_entity_metadata/rev_pers_lib_create/db_create/FEED_ENTRY_REV_ENTITY_METADATA.c",
+					"workingDirectory" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Drev_pers_rev_entity_metadata_EXPORTS -I../../../../libs/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_rev_entity_metadata/rev_pers_lib_create/db_create/rev_entity_metadata_feedreaderdbhelper.c",
+					"workingDirectory" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Drev_pers_rev_entity_metadata_EXPORTS -I../../../../libs/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_rev_entity_metadata/rev_pers_lib_create/rev_pers_create/rev_pers_rev_entity_metadata.c",
+					"workingDirectory" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Drev_pers_rev_entity_metadata_EXPORTS -I../../../../libs/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_rev_entity_metadata/rev_pers_read/rev_pers_read_rev_entity_metadata.c",
+					"workingDirectory" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Drev_pers_rev_entity_metadata_EXPORTS -I../../../../libs/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_rev_entity_metadata/rev_pers_update/rev_pers_update_rev_entity_metadata.c",
+					"workingDirectory" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a"
+				}
+			],
+			"output" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/build/intermediates/cmake/release/obj/arm64-v8a/librev_pers_rev_entity_metadata.so",
+			"toolchain" : "7370863124659855753"
+		},
+		"rev_pers_rev_entity_relationships-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "rev_pers_rev_entity_relationships",
+			"buildCommand" : "/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/cmake/3.6.4111459/bin/cmake --build /Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a --target rev_pers_rev_entity_relationships",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Drev_pers_rev_entity_relationships_EXPORTS -I../../../../libs/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_relationships/rev_pers_lib_create/db_create/FEED_ENTRY_REV_ENTITY_RELATIONSHIPS.c",
+					"workingDirectory" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Drev_pers_rev_entity_relationships_EXPORTS -I../../../../libs/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_relationships/rev_pers_lib_create/db_create/rev_entity_relationships_feedreaderdbhelper.c",
+					"workingDirectory" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Drev_pers_rev_entity_relationships_EXPORTS -I../../../../libs/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_relationships/rev_pers_lib_create/rev_pers_create/rev_pers_relationships.c",
+					"workingDirectory" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Drev_pers_rev_entity_relationships_EXPORTS -I../../../../libs/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_relationships/rev_pers_read/rev_pers_read_rev_entity_relationships.c",
+					"workingDirectory" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Drev_pers_rev_entity_relationships_EXPORTS -I../../../../libs/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_relationships/rev_pers_update/rev_pers_update_rev_entity_rel.c",
+					"workingDirectory" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Drev_pers_rev_entity_relationships_EXPORTS -I../../../../libs/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_relationships/rev_pers_delete/rev_pers_rel_delete.c",
+					"workingDirectory" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a"
+				}
+			],
+			"output" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/build/intermediates/cmake/release/obj/arm64-v8a/librev_pers_rev_entity_relationships.so",
+			"toolchain" : "7370863124659855753"
+		},
+		"rev_pers_rev_group_entity-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "rev_pers_rev_group_entity",
+			"buildCommand" : "/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/cmake/3.6.4111459/bin/cmake --build /Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a --target rev_pers_rev_group_entity",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Drev_pers_rev_group_entity_EXPORTS -I../../../../libs/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_group_entity/rev_pers_rev_group_entity.c",
+					"workingDirectory" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Drev_pers_rev_group_entity_EXPORTS -I../../../../libs/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_group_entity/db_create/FEED_ENTRY_REV_GROUP_ENTITY.c",
+					"workingDirectory" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Drev_pers_rev_group_entity_EXPORTS -I../../../../libs/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_group_entity/db_create/rev_group_entity_feedreaderdbhelper.c",
+					"workingDirectory" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Drev_pers_rev_group_entity_EXPORTS -I../../../../libs/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_group_entity/rev_pers_read/rev_pers_read_rev_group_entity.c",
+					"workingDirectory" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a"
+				}
+			],
+			"output" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/build/intermediates/cmake/release/obj/arm64-v8a/librev_pers_rev_group_entity.so",
+			"toolchain" : "7370863124659855753"
+		},
+		"rev_pers_rev_object_entity-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "rev_pers_rev_object_entity",
+			"buildCommand" : "/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/cmake/3.6.4111459/bin/cmake --build /Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a --target rev_pers_rev_object_entity",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Drev_pers_rev_object_entity_EXPORTS -I../../../../libs/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_object_entity/rev_pers_lib_create/db_create/FEED_ENTRY_REV_OBJECT_ENTITY.c",
+					"workingDirectory" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Drev_pers_rev_object_entity_EXPORTS -I../../../../libs/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_object_entity/rev_pers_lib_create/db_create/rev_object_entity_feedreaderdbhelper.c",
+					"workingDirectory" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Drev_pers_rev_object_entity_EXPORTS -I../../../../libs/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_object_entity/rev_pers_lib_create/rev_pers_create/rev_pers_rev_object_entity.c",
+					"workingDirectory" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Drev_pers_rev_object_entity_EXPORTS -I../../../../libs/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_object_entity/rev_pers_lib_read/rev_pers_read/rev_pers_read_rev_object_entity.c",
+					"workingDirectory" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a"
+				}
+			],
+			"output" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/build/intermediates/cmake/release/obj/arm64-v8a/librev_pers_rev_object_entity.so",
+			"toolchain" : "7370863124659855753"
+		},
+		"rev_pers_rev_timeline-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "rev_pers_rev_timeline",
+			"buildCommand" : "/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/cmake/3.6.4111459/bin/cmake --build /Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a --target rev_pers_rev_timeline",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Drev_pers_rev_timeline_EXPORTS -I../../../../libs/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_timeline/rev_pers_lib_create/db_create/rev_timeline_feedreaderdbhelper.c",
+					"workingDirectory" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Drev_pers_rev_timeline_EXPORTS -I../../../../libs/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_timeline/rev_pers_lib_create/rev_pers_create/rev_pers_rev_timeline.c",
+					"workingDirectory" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Drev_pers_rev_timeline_EXPORTS -I../../../../libs/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_timeline/rev_pers_read/rev_pers_read_rev_timeline.c",
+					"workingDirectory" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a"
+				}
+			],
+			"output" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/build/intermediates/cmake/release/obj/arm64-v8a/librev_pers_rev_timeline.so",
+			"toolchain" : "7370863124659855753"
+		},
+		"rev_pers_rev_user_entity-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "rev_pers_rev_user_entity",
+			"buildCommand" : "/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/cmake/3.6.4111459/bin/cmake --build /Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a --target rev_pers_rev_user_entity",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Drev_pers_rev_user_entity_EXPORTS -I../../../../libs/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_user_entity/rev_pers_lib_create/db_create/FEED_ENTRY_REV_USER_ENTITY.c",
+					"workingDirectory" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Drev_pers_rev_user_entity_EXPORTS -I../../../../libs/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_user_entity/rev_pers_lib_create/db_create/rev_user_entity_feedreaderdbhelper.c",
+					"workingDirectory" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Drev_pers_rev_user_entity_EXPORTS -I../../../../libs/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_user_entity/rev_pers_lib_create/rev_pers_create/rev_pers_rev_user_entity.c",
+					"workingDirectory" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Drev_pers_rev_user_entity_EXPORTS -I../../../../libs/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_user_entity/rev_pers_lib_read/rev_pers_read/rev_pers_read_rev_user_entity.c",
+					"workingDirectory" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a"
+				}
+			],
+			"output" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/build/intermediates/cmake/release/obj/arm64-v8a/librev_pers_rev_user_entity.so",
+			"toolchain" : "7370863124659855753"
+		},
+		"sqlite3-native-lib-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "sqlite3-native-lib",
+			"buildCommand" : "/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/cmake/3.6.4111459/bin/cmake --build /Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a --target sqlite3-native-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dsqlite3_native_lib_EXPORTS -I../../../../libs/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++0x -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/sqlite3-native-lib.cpp",
+					"workingDirectory" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/.cxx/cmake/release/arm64-v8a"
+				}
+			],
+			"output" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/build/intermediates/cmake/release/obj/arm64-v8a/libsqlite3-native-lib.so",
+			"toolchain" : "7370863124659855753"
+		},
+		"sqlite3_base-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "sqlite3_base",
+			"buildType" : "release",
+			"output" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/libs/arm64-v8a/libsqlite3.a",
+			"toolchain" : "7370863124659855753"
+		}
+	},
+	"toolchains" : 
+	{
+		"7370863124659855753" : 
+		{
+			"cCompilerExecutable" : "/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

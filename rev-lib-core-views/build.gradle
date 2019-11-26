@@ -1,0 +1,40 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    api fileTree(include: ['*.jar'], dir: 'libs')
+    implementation('androidx.test.espresso:espresso-core:3.1.0', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    api 'androidx.appcompat:appcompat:1.0.0'
+    testImplementation 'junit:junit:4.13-beta-3'
+    api project(':rev-lib-gen-functions')
+    api project(':rev-lib-plugin-loader')
+    api project(':rev-lib-views')
+    api project(path: ':rev-lib-persistence')
+    api 'com.squareup.picasso:picasso:2.71828'
+    implementation 'org.apache.commons:commons-lang3:3.9'
+    implementation project(path: ':rev-gen-lib-pers')
+
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.3'
+}

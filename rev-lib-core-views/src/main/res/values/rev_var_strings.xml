@@ -1,0 +1,12 @@
+<resources>
+    <string name="createPluggableRevMainCenterCctView_LL">createPluggableRevMainCenterCctView_LL</string>
+    <string name="createRevMerryllStripMenuViewItem">createRevMerryllStripMenuViewItem</string>
+    <string name="createPluggableTopBarMenuViewItem">createPluggableTopBarMenuViewItem</string>
+    <string name="createRevPluggableCenterMainContentOverlayFloatingView">createRevPluggableCenterMainContentOverlayFloatingView</string>
+    <string name="createRevObjectListingOptionsTogglerMenuView">createRevObjectListingOptionsTogglerMenuView</string>
+    <string name="createRevNotificationView">createRevNotificationView</string>
+    <string name="createPluggableRevDrawerMenuView">createPluggableRevDrawerMenuView</string>
+    <string name="createRevPluggableFooterMenueTogglerTab">createRevPluggableFooterMenueTogglerTab</string>
+    <string name="createRevPluggableCustomObjectListingView">createRevPluggableCustomObjectListingView</string>
+    <string name="createRevFooterTab">createRevFooterTab</string>
+</resources>

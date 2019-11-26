@@ -1,0 +1,21 @@
+{
+  "buildFiles": [
+    "/Users/oliver/Downloads/rev_and/RevCampAnn/rev_v8/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/cmake/3.6.4111459/bin/cmake --build /Users/oliver/Downloads/rev_and/RevCampAnn/rev_v8/.cxx/cmake/debug/x86_64 --target clean"
+  ],
+  "libraries": {
+    "native-lib-Debug-x86_64": {
+      "artifactName": "native-lib",
+      "buildCommand": "/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/cmake/3.6.4111459/bin/cmake --build /Users/oliver/Downloads/rev_and/RevCampAnn/rev_v8/.cxx/cmake/debug/x86_64 --target native-lib",
+      "abi": "x86_64",
+      "output": "/Users/oliver/Downloads/rev_and/RevCampAnn/rev_v8/build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so"
+    },
+    "v8_base-Debug-x86_64": {
+      "artifactName": "v8_base",
+      "abi": "x86_64",
+      "output": "/Users/oliver/Downloads/rev_and/RevCampAnn/rev_v8/libs/x86_64/libv8.a"
+    }
+  }
+}

@@ -1,0 +1,2 @@
+[1/2] Building CXX object CMakeFiles/sqlite3-native-lib.dir/src/main/cpp/sqlite3-native-lib.cpp.o
+[2/2] Linking CXX shared library ../../../../build/intermediates/cmake/debug/obj/x86_64/libsqlite3-native-lib.so

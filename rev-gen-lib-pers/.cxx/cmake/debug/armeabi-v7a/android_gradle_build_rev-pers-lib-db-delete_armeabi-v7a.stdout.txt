@@ -1,2 +1,1 @@
-[1/2] Building CXX object CMakeFiles/rev-pers-lib-db-delete.dir/src/main/jni/rev-pers-lib-delete.cpp.o
-[2/2] Linking CXX shared library ../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/librev-pers-lib-db-delete.so
+ninja: no work to do.

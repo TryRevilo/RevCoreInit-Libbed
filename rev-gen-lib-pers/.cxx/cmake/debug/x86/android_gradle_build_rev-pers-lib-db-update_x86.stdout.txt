@@ -1,0 +1,2 @@
+[1/2] Building CXX object CMakeFiles/rev-pers-lib-db-update.dir/src/main/jni/rev-pers-lib-update.cpp.o
+[2/2] Linking CXX shared library ../../../../build/intermediates/cmake/debug/obj/x86/librev-pers-lib-db-update.so

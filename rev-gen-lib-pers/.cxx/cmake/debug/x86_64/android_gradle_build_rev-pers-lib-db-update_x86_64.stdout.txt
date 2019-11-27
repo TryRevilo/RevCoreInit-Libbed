@@ -1,0 +1,28 @@
+[1/9] Building CXX object CMakeFiles/rev-pers-lib-db-create.dir/src/main/jni/rev_metadata_jni_loader.cpp.o
+[2/9] Building CXX object CMakeFiles/rev-pers-lib-db-create.dir/src/main/jni/rev-pers-lib-create.cpp.o
+[3/9] Building CXX object CMakeFiles/rev-pers-lib-db-create.dir/src/main/jni/rev_annotation_jni_loader.cpp.o
+[4/9] Building CXX object CMakeFiles/rev-pers-lib-db-create.dir/src/main/jni/rev_pers_entity_type_init/rev_pers_object_init.cpp.o
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/jni/rev-pers-lib-create.cpp:166:13: warning: address of stack memory associated with local variable 'revEntityMetadataList' returned [-Wreturn-stack-address]
+    return &revEntityMetadataList;
+            ^~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+[5/9] Linking CXX shared library ../../../../build/intermediates/cmake/debug/obj/x86_64/librev-pers-lib-db-create.so
+[6/9] Building CXX object CMakeFiles/rev-pers-lib-db-read.dir/src/main/jni/rev-pers-lib-read.cpp.o
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/jni/rev-pers-lib-read.cpp:279:116: warning: format specifies type 'char *' but the argument has type 'long' [-Wformat]
+                __android_log_print(ANDROID_LOG_ERROR, "MyApp", "value >>> %s : getRevEntityByRevEntityGUID >>> - NO UTF : %ld", cPosRec->_revEntityGUID);
+                                                                           ~~                                                    ^~~~~~~~~~~~~~~~~~~~~~~
+                                                                           %ld
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/jni/rev-pers-lib-read.cpp:279:112: warning: more '%' conversions than data arguments [-Wformat]
+                __android_log_print(ANDROID_LOG_ERROR, "MyApp", "value >>> %s : getRevEntityByRevEntityGUID >>> - NO UTF : %ld", cPosRec->_revEntityGUID);
+                                                                                                                           ~~^
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/jni/rev-pers-lib-read.cpp:320:31: warning: comparison between NULL and non-pointer ('long long' and NULL) [-Wnull-arithmetic]
+        if (cPosRec->_revTimeCreated != NULL) {
+            ~~~~~~~~~~~~~~~~~~~~~~~~ ^  ~~~~
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/jni/rev-pers-lib-read.cpp:320:34: warning: implicit conversion of NULL constant to 'long long' [-Wnull-conversion]
+        if (cPosRec->_revTimeCreated != NULL) {
+                                     ~~ ^~~~
+                                        0
+4 warnings generated.
+[7/9] Linking CXX shared library ../../../../build/intermediates/cmake/debug/obj/x86_64/librev-pers-lib-db-read.so
+[8/9] Building CXX object CMakeFiles/rev-pers-lib-db-update.dir/src/main/jni/rev-pers-lib-update.cpp.o
+[9/9] Linking CXX shared library ../../../../build/intermediates/cmake/debug/obj/x86_64/librev-pers-lib-db-update.so

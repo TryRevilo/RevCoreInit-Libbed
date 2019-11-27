@@ -1,0 +1,322 @@
+[1/60] Building C object CMakeFiles/rev_pers_lib_includes.dir/src/main/cpp/rev_clib_sqlite_pers/rev_pers_libs_ext/libs_cust_rev/rev_gen_functions.c.o
+[2/60] Building C object CMakeFiles/rev_pers_lib_includes.dir/src/main/cpp/rev_clib_sqlite_pers/rev_pers_libs_ext/libs_cust_rev/rev_list/rev_linked_list.c.o
+[3/60] Building C object CMakeFiles/rev_pers_lib_includes.dir/src/main/cpp/rev_clib_sqlite_pers/rev_pers_libs_ext/libs_ext/cJSON/cJSON.c.o
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_libs_ext/libs_cust_rev/rev_gen_functions.c:55:48: warning: incompatible pointer types passing 'struct tm **' to parameter of type 'const struct tm *'; remove & [-Wincompatible-pointer-types]
+    strftime( formatted_date, 40, "%B %d, %Y", &tm );
+                                               ^~~
+/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/time.h:84:78: note: passing argument to parameter '__tm' here
+size_t strftime(char* __buf, size_t __n, const char* __fmt, const struct tm* __tm) __strftimelike(3);
+                                                                             ^
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_libs_ext/libs_cust_rev/rev_gen_functions.c:58:14: warning: incompatible pointer types passing 'char *[80]' to parameter of type 'char *' [-Wincompatible-pointer-types]
+    strftime(buffer,80,"%x - %I:%M%p", tm);
+             ^~~~~~
+/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/time.h:84:23: note: passing argument to parameter '__buf' here
+size_t strftime(char* __buf, size_t __n, const char* __fmt, const struct tm* __tm) __strftimelike(3);
+                      ^
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_libs_ext/libs_cust_rev/rev_gen_functions.c:60:19: warning: incompatible pointer types passing 'char *[80]' to parameter of type 'const char *' [-Wincompatible-pointer-types]
+    return strdup(buffer);
+                  ^~~~~~
+/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/string.h:110:26: note: passing argument to parameter '__s' here
+char* strdup(const char* __s);
+                         ^
+3 warnings generated.
+[4/60] Linking C shared library ../../../../build/intermediates/cmake/debug/obj/x86_64/librev_pers_lib_includes.so
+[5/60] Building C object CMakeFiles/rev_db_init.dir/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_db_init/rev_db_init.c.o
+[6/60] Linking C shared library ../../../../build/intermediates/cmake/debug/obj/x86_64/librev_db_init.so
+[7/60] Building C object CMakeFiles/rev_pers_rev_timeline.dir/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_timeline/rev_pers_lib_create/db_create/rev_timeline_feedreaderdbhelper.c.o
+[8/60] Building C object CMakeFiles/rev_pers_rev_timeline.dir/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_timeline/rev_pers_lib_create/rev_pers_create/rev_pers_rev_timeline.c.o
+[9/60] Building C object CMakeFiles/rev_pers_rev_timeline.dir/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_timeline/rev_pers_read/rev_pers_read_rev_timeline.c.o
+[10/60] Building C object CMakeFiles/rev_pers_entity_metastrings.dir/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_rev_entity_metastrings/rev_pers_lib_create/db_create/rev_entity_metastring_feedreaderdbhelper.c.o
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_timeline/rev_pers_read/rev_pers_read_rev_timeline.c:83:13: warning: address of stack memory associated with local variable 'list' returned [-Wreturn-stack-address]
+    return &list;
+            ^~~~
+1 warning generated.
+[11/60] Building C object CMakeFiles/rev_pers_entity_metastrings.dir/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_rev_entity_metastrings/rev_pers_lib_create/db_create/FEED_ENTRY_REV_ENTITY_METASTRING.c.o
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_timeline/rev_pers_lib_create/rev_pers_create/rev_pers_rev_timeline.c:39:11: warning: initializing 'char *' with an expression of type 'const char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+    char *currTime = revGetCurrentTime();
+          ^          ~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+[12/60] Linking C shared library ../../../../build/intermediates/cmake/debug/obj/x86_64/librev_pers_rev_timeline.so
+[13/60] Building C object CMakeFiles/rev_pers_entity_metastrings.dir/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_rev_entity_metastrings/rev_pers_lib_create/rev_pers_create/rev_pers_rev_entity_metastrings.c.o
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_rev_entity_metastrings/rev_pers_lib_create/db_create/FEED_ENTRY_REV_ENTITY_METASTRING.c:15:13: warning: address of stack memory associated with local variable 'feedEntryRevEntityMetadata' returned [-Wreturn-stack-address]
+    return &feedEntryRevEntityMetadata;
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+[14/60] Building C object CMakeFiles/rev_pers_entity_metastrings.dir/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_rev_entity_metastrings/rev_pers_read/rev_pers_read_rev_entity_metastrings.c.o
+[15/60] Building C object CMakeFiles/rev_pers_rev_object_entity.dir/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_object_entity/rev_pers_lib_create/db_create/FEED_ENTRY_REV_OBJECT_ENTITY.c.o
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_object_entity/rev_pers_lib_create/db_create/FEED_ENTRY_REV_OBJECT_ENTITY.c:17:13: warning: address of stack memory associated with local variable 'feedEntryRevObjectEntity' returned [-Wreturn-stack-address]
+    return &feedEntryRevObjectEntity;
+            ^~~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+[16/60] Building C object CMakeFiles/rev_pers_rev_object_entity.dir/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_object_entity/rev_pers_lib_create/db_create/rev_object_entity_feedreaderdbhelper.c.o
+[17/60] Building C object CMakeFiles/rev_pers_rev_object_entity.dir/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_object_entity/rev_pers_lib_create/rev_pers_create/rev_pers_rev_object_entity.c.o
+[18/60] Building C object CMakeFiles/rev_pers_rev_object_entity.dir/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_object_entity/rev_pers_lib_read/rev_pers_read/rev_pers_read_rev_object_entity.c.o
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_rev_entity_metastrings/rev_pers_read/rev_pers_read_rev_entity_metastrings.c:130:13: warning: address of stack memory associated with local variable 'list' returned [-Wreturn-stack-address]
+    return &list;
+            ^~~~
+1 warning generated.
+[19/60] Linking C shared library ../../../../build/intermediates/cmake/debug/obj/x86_64/librev_pers_entity_metastrings.so
+[20/60] Building C object CMakeFiles/rev_pers_rev_entity_annotations.dir/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_rev_entity_annotations/rev_pers_lib_create/db_create/FEED_ENTRY_REV_ENTITY_ANNOTATIONS.c.o
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_rev_entity_annotations/rev_pers_lib_create/db_create/FEED_ENTRY_REV_ENTITY_ANNOTATIONS.c:20:13: warning: address of stack memory associated with local variable 'feedEntryRevEntityMetadata' returned [-Wreturn-stack-address]
+    return &feedEntryRevEntityMetadata;
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+[21/60] Building C object CMakeFiles/rev_pers_rev_entity_annotations.dir/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_rev_entity_annotations/rev_pers_lib_create/db_create/rev_entity_annotation_feedreaderdbhelper.c.o
+[22/60] Building C object CMakeFiles/rev_pers_rev_entity_annotations.dir/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_rev_entity_annotations/rev_pers_lib_create/rev_pers_create/rev_pers_annotation.c.o
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_object_entity/rev_pers_lib_create/rev_pers_create/rev_pers_rev_object_entity.c:19:11: warning: initializing 'char *' with an expression of type 'const char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+    char *currTime = revGetCurrentTime();
+          ^          ~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+[23/60] Building C object CMakeFiles/rev_pers_rev_entity_annotations.dir/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_rev_entity_annotations/rev_pers_read/rev_pers_read_rev_entity_annotations.c.o
+[24/60] Building C object CMakeFiles/rev_pers_rev_entity_annotations.dir/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_rev_entity_annotations/rev_pers_update/rev_pers_update_rev_entity_ann.c.o
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_rev_entity_annotations/rev_pers_lib_create/rev_pers_create/rev_pers_annotation.c:21:11: warning: initializing 'char *' with an expression of type 'const char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+    char *currTime = revGetCurrentTime();
+          ^          ~~~~~~~~~~~~~~~~~~~
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_rev_entity_annotations/rev_pers_lib_create/rev_pers_create/rev_pers_annotation.c:100:11: warning: initializing 'char *' with an expression of type 'const char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+    char *currTime = revGetCurrentTime();
+          ^          ~~~~~~~~~~~~~~~~~~~
+2 warnings generated.
+[25/60] Building C object CMakeFiles/rev_pers_rev_entity_metadata.dir/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_rev_entity_metadata/rev_pers_lib_create/db_create/FEED_ENTRY_REV_ENTITY_METADATA.c.o
+[26/60] Building C object CMakeFiles/rev_pers_rev_entity_metadata.dir/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_rev_entity_metadata/rev_pers_lib_create/db_create/rev_entity_metadata_feedreaderdbhelper.c.o
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_rev_entity_metadata/rev_pers_lib_create/db_create/FEED_ENTRY_REV_ENTITY_METADATA.c:15:13: warning: address of stack memory associated with local variable 'feedEntryRevEntityMetadata' returned [-Wreturn-stack-address]
+    return &feedEntryRevEntityMetadata;
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+[27/60] Building C object CMakeFiles/rev_pers_rev_entity_metadata.dir/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_rev_entity_metadata/rev_pers_lib_create/rev_pers_create/rev_pers_rev_entity_metadata.c.o
+[28/60] Building C object CMakeFiles/rev_pers_rev_entity_metadata.dir/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_rev_entity_metadata/rev_pers_read/rev_pers_read_rev_entity_metadata.c.o
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_rev_entity_annotations/rev_pers_read/rev_pers_read_rev_entity_annotations.c:180:13: warning: address of stack memory associated with local variable 'list' returned [-Wreturn-stack-address]
+    return &list;
+            ^~~~
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_rev_entity_annotations/rev_pers_read/rev_pers_read_rev_entity_annotations.c:217:13: warning: address of stack memory associated with local variable 'list' returned [-Wreturn-stack-address]
+    return &list;
+            ^~~~
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_rev_entity_annotations/rev_pers_read/rev_pers_read_rev_entity_annotations.c:257:13: warning: address of stack memory associated with local variable 'list' returned [-Wreturn-stack-address]
+    return &list;
+            ^~~~
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_rev_entity_annotations/rev_pers_read/rev_pers_read_rev_entity_annotations.c:289:13: warning: address of stack memory associated with local variable 'list' returned [-Wreturn-stack-address]
+    return &list;
+            ^~~~
+4 warnings generated.
+[29/60] Linking C shared library ../../../../build/intermediates/cmake/debug/obj/x86_64/librev_pers_rev_entity_annotations.so
+[30/60] Building C object CMakeFiles/rev_pers_rev_entity_metadata.dir/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_rev_entity_metadata/rev_pers_update/rev_pers_update_rev_entity_metadata.c.o
+[31/60] Building C object CMakeFiles/rev_pers_rev_entity_relationships.dir/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_relationships/rev_pers_lib_create/db_create/FEED_ENTRY_REV_ENTITY_RELATIONSHIPS.c.o
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_relationships/rev_pers_lib_create/db_create/FEED_ENTRY_REV_ENTITY_RELATIONSHIPS.c:16:13: warning: address of stack memory associated with local variable 'feedEntryRevEntityMetadata' returned [-Wreturn-stack-address]
+    return &feedEntryRevEntityMetadata;
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+[32/60] Building C object CMakeFiles/rev_pers_rev_entity_relationships.dir/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_relationships/rev_pers_lib_create/db_create/rev_entity_relationships_feedreaderdbhelper.c.o
+[33/60] Building C object CMakeFiles/rev_pers_rev_entity_relationships.dir/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_relationships/rev_pers_lib_create/rev_pers_create/rev_pers_relationships.c.o
+[34/60] Building C object CMakeFiles/rev_pers_rev_entity_relationships.dir/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_relationships/rev_pers_read/rev_pers_read_rev_entity_relationships.c.o
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_rev_entity_metadata/rev_pers_read/rev_pers_read_rev_entity_metadata.c:187:13: warning: address of stack memory associated with local variable 'list' returned [-Wreturn-stack-address]
+    return &list;
+            ^~~~
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_rev_entity_metadata/rev_pers_read/rev_pers_read_rev_entity_metadata.c:236:13: warning: address of stack memory associated with local variable 'list' returned [-Wreturn-stack-address]
+    return &list;
+            ^~~~
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_rev_entity_metadata/rev_pers_read/rev_pers_read_rev_entity_metadata.c:284:13: warning: address of stack memory associated with local variable 'list' returned [-Wreturn-stack-address]
+    return &list;
+            ^~~~
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_rev_entity_metadata/rev_pers_read/rev_pers_read_rev_entity_metadata.c:320:13: warning: address of stack memory associated with local variable 'list' returned [-Wreturn-stack-address]
+    return &list;
+            ^~~~
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_rev_entity_metadata/rev_pers_read/rev_pers_read_rev_entity_metadata.c:354:13: warning: address of stack memory associated with local variable 'list' returned [-Wreturn-stack-address]
+    return &list;
+            ^~~~
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_rev_entity_metadata/rev_pers_read/rev_pers_read_rev_entity_metadata.c:389:13: warning: address of stack memory associated with local variable 'list' returned [-Wreturn-stack-address]
+    return &list;
+            ^~~~
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_rev_entity_metadata/rev_pers_read/rev_pers_read_rev_entity_metadata.c:506:13: warning: address of stack memory associated with local variable 'list' returned [-Wreturn-stack-address]
+    return &list;
+            ^~~~
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_rev_entity_metadata/rev_pers_read/rev_pers_read_rev_entity_metadata.c:560:13: warning: address of stack memory associated with local variable 'revEntityMetadata' returned [-Wreturn-stack-address]
+    return &revEntityMetadata;
+            ^~~~~~~~~~~~~~~~~
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_rev_entity_metadata/rev_pers_read/rev_pers_read_rev_entity_metadata.c:603:13: warning: address of stack memory associated with local variable 'list' returned [-Wreturn-stack-address]
+    return &list;
+            ^~~~
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_rev_entity_metadata/rev_pers_read/rev_pers_read_rev_entity_metadata.c:645:13: warning: address of stack memory associated with local variable 'list' returned [-Wreturn-stack-address]
+    return &list;
+            ^~~~
+10 warnings generated.
+[35/60] Linking C shared library ../../../../build/intermediates/cmake/debug/obj/x86_64/librev_pers_rev_entity_metadata.so
+[36/60] Building C object CMakeFiles/rev_pers_rev_entity_relationships.dir/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_relationships/rev_pers_update/rev_pers_update_rev_entity_rel.c.o
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_relationships/rev_pers_lib_create/rev_pers_create/rev_pers_relationships.c:151:11: warning: initializing 'char *' with an expression of type 'const char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+    char *currTime = revGetCurrentTime();
+          ^          ~~~~~~~~~~~~~~~~~~~
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_relationships/rev_pers_lib_create/rev_pers_create/rev_pers_relationships.c:198:11: warning: initializing 'char *' with an expression of type 'const char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+    char *currTime = revGetCurrentTime();
+          ^          ~~~~~~~~~~~~~~~~~~~
+2 warnings generated.
+[37/60] Building C object CMakeFiles/rev_pers_rev_entity_relationships.dir/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_relationships/rev_pers_delete/rev_pers_rel_delete.c.o
+[38/60] Linking C shared library ../../../../build/intermediates/cmake/debug/obj/x86_64/librev_pers_rev_object_entity.so
+[39/60] Building C object CMakeFiles/rev_pers_rev_user_entity.dir/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_user_entity/rev_pers_lib_create/db_create/FEED_ENTRY_REV_USER_ENTITY.c.o
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_user_entity/rev_pers_lib_create/db_create/FEED_ENTRY_REV_USER_ENTITY.c:19:13: warning: address of stack memory associated with local variable 'feedEntryRevUserEntity' returned [-Wreturn-stack-address]
+    return &feedEntryRevUserEntity;
+            ^~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+[40/60] Building C object CMakeFiles/rev_pers_rev_user_entity.dir/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_user_entity/rev_pers_lib_create/db_create/rev_user_entity_feedreaderdbhelper.c.o
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_relationships/rev_pers_update/rev_pers_update_rev_entity_rel.c:31:11: warning: initializing 'char *' with an expression of type 'const char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+    char *currTime = revGetCurrentTime();
+          ^          ~~~~~~~~~~~~~~~~~~~
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_relationships/rev_pers_update/rev_pers_update_rev_entity_rel.c:293:31: warning: implicit declaration of function 'getRevEntityMetaStringValueId' is invalid in C99 [-Wimplicit-function-declaration]
+    sqlite3_bind_int(stmt, 2, getRevEntityMetaStringValueId(strdup(revEntityrelationship)));
+                              ^
+2 warnings generated.
+[41/60] Building C object CMakeFiles/rev_pers_rev_user_entity.dir/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_user_entity/rev_pers_lib_create/rev_pers_create/rev_pers_rev_user_entity.c.o
+[42/60] Building C object CMakeFiles/rev_pers_rev_user_entity.dir/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_user_entity/rev_pers_lib_read/rev_pers_read/rev_pers_read_rev_user_entity.c.o
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_relationships/rev_pers_read/rev_pers_read_rev_entity_relationships.c:422:13: warning: address of stack memory associated with local variable 'list' returned [-Wreturn-stack-address]
+    return &list;
+            ^~~~
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_relationships/rev_pers_read/rev_pers_read_rev_entity_relationships.c:457:13: warning: address of stack memory associated with local variable 'list' returned [-Wreturn-stack-address]
+    return &list;
+            ^~~~
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_relationships/rev_pers_read/rev_pers_read_rev_entity_relationships.c:498:13: warning: address of stack memory associated with local variable 'list' returned [-Wreturn-stack-address]
+    return &list;
+            ^~~~
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_relationships/rev_pers_read/rev_pers_read_rev_entity_relationships.c:541:13: warning: address of stack memory associated with local variable 'list' returned [-Wreturn-stack-address]
+    return &list;
+            ^~~~
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_relationships/rev_pers_read/rev_pers_read_rev_entity_relationships.c:574:13: warning: address of stack memory associated with local variable 'list' returned [-Wreturn-stack-address]
+    return &list;
+            ^~~~
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_relationships/rev_pers_read/rev_pers_read_rev_entity_relationships.c:607:13: warning: address of stack memory associated with local variable 'list' returned [-Wreturn-stack-address]
+    return &list;
+            ^~~~
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_relationships/rev_pers_read/rev_pers_read_rev_entity_relationships.c:640:13: warning: address of stack memory associated with local variable 'list' returned [-Wreturn-stack-address]
+    return &list;
+            ^~~~
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_relationships/rev_pers_read/rev_pers_read_rev_entity_relationships.c:678:13: warning: address of stack memory associated with local variable 'list' returned [-Wreturn-stack-address]
+    return &list;
+            ^~~~
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_relationships/rev_pers_read/rev_pers_read_rev_entity_relationships.c:713:13: warning: address of stack memory associated with local variable 'list' returned [-Wreturn-stack-address]
+    return &list;
+            ^~~~
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_relationships/rev_pers_read/rev_pers_read_rev_entity_relationships.c:789:13: warning: address of stack memory associated with local variable 'revEntityRelationshipList' returned [-Wreturn-stack-address]
+    return &revEntityRelationshipList;
+            ^~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_relationships/rev_pers_read/rev_pers_read_rev_entity_relationships.c:869:13: warning: address of stack memory associated with local variable 'revEntityRelationshipList' returned [-Wreturn-stack-address]
+    return &revEntityRelationshipList;
+            ^~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_relationships/rev_pers_read/rev_pers_read_rev_entity_relationships.c:902:13: warning: address of stack memory associated with local variable 'list' returned [-Wreturn-stack-address]
+    return &list;
+            ^~~~
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_relationships/rev_pers_read/rev_pers_read_rev_entity_relationships.c:936:13: warning: address of stack memory associated with local variable 'list' returned [-Wreturn-stack-address]
+    return &list;
+            ^~~~
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_relationships/rev_pers_read/rev_pers_read_rev_entity_relationships.c:993:13: warning: address of stack memory associated with local variable 'revEntityRelationshipList' returned [-Wreturn-stack-address]
+    return &revEntityRelationshipList;
+            ^~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_relationships/rev_pers_read/rev_pers_read_rev_entity_relationships.c:1052:13: warning: address of stack memory associated with local variable 'revEntityRelationshipList' returned [-Wreturn-stack-address]
+    return &revEntityRelationshipList;
+            ^~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_relationships/rev_pers_read/rev_pers_read_rev_entity_relationships.c:1109:13: warning: address of stack memory associated with local variable 'revEntityRelationshipList' returned [-Wreturn-stack-address]
+    return &revEntityRelationshipList;
+            ^~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_relationships/rev_pers_read/rev_pers_read_rev_entity_relationships.c:1171:13: warning: address of stack memory associated with local variable 'revEntityRelationshipList' returned [-Wreturn-stack-address]
+    return &revEntityRelationshipList;
+            ^~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_relationships/rev_pers_read/rev_pers_read_rev_entity_relationships.c:1233:13: warning: address of stack memory associated with local variable 'revEntityRelationshipList' returned [-Wreturn-stack-address]
+    return &revEntityRelationshipList;
+            ^~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_relationships/rev_pers_read/rev_pers_read_rev_entity_relationships.c:1276:13: warning: address of stack memory associated with local variable 'revEntityRelationshipList' returned [-Wreturn-stack-address]
+    return &revEntityRelationshipList;
+            ^~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity_data/rev_pers_relationships/rev_pers_read/rev_pers_read_rev_entity_relationships.c:1341:13: warning: address of stack memory associated with local variable 'revEntityRelationshipList' returned [-Wreturn-stack-address]
+    return &revEntityRelationshipList;
+            ^~~~~~~~~~~~~~~~~~~~~~~~~
+20 warnings generated.
+[43/60] Linking C shared library ../../../../build/intermediates/cmake/debug/obj/x86_64/librev_pers_rev_entity_relationships.so
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_user_entity/rev_pers_lib_create/rev_pers_create/rev_pers_rev_user_entity.c:22:11: warning: initializing 'char *' with an expression of type 'const char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+    char *currTime = revGetCurrentTime();
+          ^          ~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+[44/60] Building C object CMakeFiles/rev_pers_rev_group_entity.dir/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_group_entity/db_create/FEED_ENTRY_REV_GROUP_ENTITY.c.o
+[45/60] Linking C shared library ../../../../build/intermediates/cmake/debug/obj/x86_64/librev_pers_rev_user_entity.so
+[46/60] Building C object CMakeFiles/rev_pers_rev_group_entity.dir/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_group_entity/rev_pers_rev_group_entity.c.o
+[47/60] Building C object CMakeFiles/rev_pers_rev_group_entity.dir/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_group_entity/db_create/rev_group_entity_feedreaderdbhelper.c.o
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_group_entity/db_create/FEED_ENTRY_REV_GROUP_ENTITY.c:17:13: warning: address of stack memory associated with local variable 'feedEntryRevGROUPEntity' returned [-Wreturn-stack-address]
+    return &feedEntryRevGROUPEntity;
+            ^~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+[48/60] Building C object CMakeFiles/rev_pers_rev_group_entity.dir/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_group_entity/rev_pers_read/rev_pers_read_rev_group_entity.c.o
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_group_entity/rev_pers_rev_group_entity.c:21:11: warning: initializing 'char *' with an expression of type 'const char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+    char *currTime = revGetCurrentTime();
+          ^          ~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+[49/60] Linking C shared library ../../../../build/intermediates/cmake/debug/obj/x86_64/librev_pers_rev_group_entity.so
+[50/60] Building C object CMakeFiles/rev_pers_rev_entity.dir/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_entity/init_rev_pers_rev_entity.c.o
+[51/60] Building CXX object CMakeFiles/rev_pers_rev_entity.dir/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_entity/rev_table_create.cpp.o
+[52/60] Building C object CMakeFiles/rev_pers_rev_entity.dir/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_entity/rev_pers_delete/rev_pers_delete.c.o
+[53/60] Building C object CMakeFiles/rev_pers_rev_entity.dir/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_entity/rev_pers_lib_create/db_create/FEED_ENTRY_REV_ENTITY.c.o
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_entity/rev_pers_lib_create/db_create/FEED_ENTRY_REV_ENTITY.c:18:13: warning: address of stack memory associated with local variable 'feedEntryRevEntity' returned [-Wreturn-stack-address]
+    return &feedEntryRevEntity;
+            ^~~~~~~~~~~~~~~~~~
+1 warning generated.
+[54/60] Building C object CMakeFiles/rev_pers_rev_entity.dir/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_entity/rev_pers_lib_create/db_create/rev_entity_feedreaderdbhelper.c.o
+[55/60] Building C object CMakeFiles/rev_pers_rev_entity.dir/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_entity/rev_pers_lib_create/rev_pers_create/rev_pers_rev_entity.c.o
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_entity/rev_pers_delete/rev_pers_delete.c:26:85: warning: format specifies type 'int' but the argument has type 'long' [-Wformat]
+        __android_log_print(ANDROID_LOG_ERROR, "MyApp", "ERR The value of n is %d", revEntityGUID);
+                                                                               ~~   ^~~~~~~~~~~~~
+                                                                               %ld
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_entity/rev_pers_delete/rev_pers_delete.c:33:80: warning: format specifies type 'int' but the argument has type 'long' [-Wformat]
+        __android_log_print(ANDROID_LOG_WARN, "MyApp", "The value of n is %d", revEntityGUID);
+                                                                          ~~   ^~~~~~~~~~~~~
+                                                                          %ld
+2 warnings generated.
+[56/60] Building C object CMakeFiles/rev_pers_rev_entity.dir/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_entity/rev_pers_lib_read/rev_pers_read/rev_pers_read.c.o
+[57/60] Building C object CMakeFiles/rev_pers_rev_entity.dir/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_entity/rev_pers_update/rev_pers_update.c.o
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_entity/rev_pers_lib_read/rev_pers_read/rev_pers_read.c:441:13: warning: address of stack memory associated with local variable 'list' returned [-Wreturn-stack-address]
+    return &list;
+            ^~~~
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_entity/rev_pers_lib_read/rev_pers_read/rev_pers_read.c:474:13: warning: address of stack memory associated with local variable 'list' returned [-Wreturn-stack-address]
+    return &list;
+            ^~~~
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_entity/rev_pers_lib_read/rev_pers_read/rev_pers_read.c:540:13: warning: address of stack memory associated with local variable 'revEntityList' returned [-Wreturn-stack-address]
+    return &revEntityList;
+            ^~~~~~~~~~~~~
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_entity/rev_pers_lib_read/rev_pers_read/rev_pers_read.c:603:13: warning: address of stack memory associated with local variable 'revEntityList' returned [-Wreturn-stack-address]
+    return &revEntityList;
+            ^~~~~~~~~~~~~
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_entity/rev_pers_lib_read/rev_pers_read/rev_pers_read.c:665:13: warning: address of stack memory associated with local variable 'revEntityList' returned [-Wreturn-stack-address]
+    return &revEntityList;
+            ^~~~~~~~~~~~~
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_entity/rev_pers_lib_read/rev_pers_read/rev_pers_read.c:697:13: warning: address of stack memory associated with local variable 'list' returned [-Wreturn-stack-address]
+    return &list;
+            ^~~~
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_entity/rev_pers_lib_read/rev_pers_read/rev_pers_read.c:729:13: warning: address of stack memory associated with local variable 'list' returned [-Wreturn-stack-address]
+    return &list;
+            ^~~~
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_entity/rev_pers_lib_read/rev_pers_read/rev_pers_read.c:764:13: warning: address of stack memory associated with local variable 'list' returned [-Wreturn-stack-address]
+    return &list;
+            ^~~~
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_entity/rev_pers_lib_read/rev_pers_read/rev_pers_read.c:834:13: warning: address of stack memory associated with local variable 'revEntityList' returned [-Wreturn-stack-address]
+    return &revEntityList;
+            ^~~~~~~~~~~~~
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_entity/rev_pers_lib_read/rev_pers_read/rev_pers_read.c:904:13: warning: address of stack memory associated with local variable 'revEntityList' returned [-Wreturn-stack-address]
+    return &revEntityList;
+            ^~~~~~~~~~~~~
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_entity/rev_pers_lib_read/rev_pers_read/rev_pers_read.c:938:13: warning: address of stack memory associated with local variable 'list' returned [-Wreturn-stack-address]
+    return &list;
+            ^~~~
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_entity/rev_pers_lib_read/rev_pers_read/rev_pers_read.c:1006:13: warning: address of stack memory associated with local variable 'revEntityList' returned [-Wreturn-stack-address]
+    return &revEntityList;
+            ^~~~~~~~~~~~~
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_entity/rev_pers_lib_read/rev_pers_read/rev_pers_read.c:1040:13: warning: address of stack memory associated with local variable 'list' returned [-Wreturn-stack-address]
+    return &list;
+            ^~~~
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_entity/rev_pers_lib_read/rev_pers_read/rev_pers_read.c:1067:13: warning: address of stack memory associated with local variable 'list' returned [-Wreturn-stack-address]
+    return &list;
+            ^~~~
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_entity/rev_pers_lib_read/rev_pers_read/rev_pers_read.c:1100:13: warning: address of stack memory associated with local variable 'list' returned [-Wreturn-stack-address]
+    return &list;
+            ^~~~
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_entity/rev_pers_lib_read/rev_pers_read/rev_pers_read.c:1136:13: warning: address of stack memory associated with local variable 'list' returned [-Wreturn-stack-address]
+    return &list;
+            ^~~~
+/Users/oliver/Downloads/rev_and/RevCampAnn/rev-gen-lib-pers/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_entity/rev_pers_rev_entity/rev_pers_lib_read/rev_pers_read/rev_pers_read.c:1197:13: warning: address of stack memory associated with local variable 'list' returned [-Wreturn-stack-address]
+    return &list;
+            ^~~~
+17 warnings generated.
+[58/60] Linking CXX shared library ../../../../build/intermediates/cmake/debug/obj/x86_64/librev_pers_rev_entity.so
+[59/60] Building C object CMakeFiles/rev_lib_connectors.dir/src/main/cpp/rev_clib_sqlite_pers/rev_pers_lib/rev_pers_lib_connectors/rev_perslib_create_init.c.o
+[60/60] Linking C shared library ../../../../build/intermediates/cmake/debug/obj/x86_64/librev_lib_connectors.so

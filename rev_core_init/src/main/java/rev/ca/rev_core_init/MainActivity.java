@@ -38,10 +38,8 @@ import rev.ca.rev_gen_lib_pers.rev_varags_data.RevVarArgsData;
 import rev.ca.rev_lib_core_app_plugins.rev_file_plugin.rev_plugin_views.rev_file_choosers.RevPicturesFileWalker;
 import rev.ca.rev_lib_core_app_plugins.rev_file_plugin.rev_plugin_views.rev_file_choosers.RevVideoFilesFileWalker;
 import rev.ca.rev_lib_core_views.rev_core_views.rev_page.RevPageView;
-import rev.ca.rev_lib_gen_functions.RevLangStrings;
 import rev.ca.rev_lib_gen_functions.RevLibGenConstantine;
 import rev.ca.rev_lib_gen_functions.RevReqPerms;
-import rev.ca.rev_lib_sqlite.RevNativeLibWrapperSQLite3;
 import rev.ca.rev_v8.RevNativeLibWrapper;
 import rev.ca.revlibpersistence.rev_persistence.rev_services.RevConstantineMake;
 import rev.ca.revlibviews.rev_core_layouts.RevConstantineViews;
@@ -107,6 +105,11 @@ public class MainActivity extends FragmentActivity implements ActivityCompat.OnR
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             // Log.v(RevLangStrings.REV_TAG, "Build.CPU_AB >>> " + Build.SUPPORTED_ABIS[0]);
+        }
+
+        if (REV_SESSION_SETTINGS.isIsNotLoggedIn()) {
+            RevNativeLibWrapper revNativeLibWrapper = new RevNativeLibWrapper();
+            revNativeLibWrapper.initV8();
         }
     }
 

@@ -1,0 +1,2 @@
+[1/2] Building CXX object CMakeFiles/rev-pers-lib-db-delete.dir/src/main/jni/rev-pers-lib-delete.cpp.o
+[2/2] Linking CXX shared library ../../../../build/intermediates/cmake/debug/obj/x86_64/librev-pers-lib-db-delete.so

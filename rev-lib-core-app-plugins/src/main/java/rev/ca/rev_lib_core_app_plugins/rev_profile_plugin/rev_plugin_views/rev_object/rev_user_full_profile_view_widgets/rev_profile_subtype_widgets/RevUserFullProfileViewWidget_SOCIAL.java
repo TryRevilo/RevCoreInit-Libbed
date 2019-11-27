@@ -351,10 +351,7 @@ public class RevUserFullProfileViewWidget_SOCIAL {
             @Override
             public void onClick(View v) {
                 /** SQL_ITE V8 **/
-
-                RevNativeLibWrapper revNativeLibWrapper = new RevNativeLibWrapper();
-                revNativeLibWrapper.initV8();
-                Log.v(RevLangStrings.REV_TAG, revNativeLibWrapper.stringFromV8() + "\nSQLite v : " + new RevNativeLibWrapperSQLite3().revLibVersion());
+                Log.v(RevLangStrings.REV_TAG, new RevNativeLibWrapper().stringFromV8() + "\nSQLite v : " + new RevNativeLibWrapperSQLite3().revLibVersion());
             }
         });
 

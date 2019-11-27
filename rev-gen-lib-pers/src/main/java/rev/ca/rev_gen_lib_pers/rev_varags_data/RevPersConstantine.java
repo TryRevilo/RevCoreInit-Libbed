@@ -1,8 +1,11 @@
 package rev.ca.rev_gen_lib_pers.rev_varags_data;
 
 import android.os.Environment;
+import android.util.Log;
 
 import java.io.File;
+
+import rev.ca.rev_lib_gen_functions.RevLangStrings;
 
 /**
  * Created by rev on 1/29/18.
@@ -27,6 +30,8 @@ public class RevPersConstantine {
     public static void REV_INIT_DIRS() {
         revAppRootDirPath = Environment.DIRECTORY_DOWNLOADS;
         String revExtPathRoot = Environment.getExternalStoragePublicDirectory(revAppRootDirPath).getAbsolutePath();
+
+        Log.v(RevLangStrings.REV_TAG, "revExtPathRoot : " + revExtPathRoot);
 
         revBaseAppDirPath = revExtPathRoot + "/rev_app";
         revBaseUserImagesDirPath = revBaseAppDirPath + "/rev_user_images";

@@ -19,6 +19,12 @@
 				
 				{
 					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I../../../../libs/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++0x -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev_v8/src/main/cpp/rev-shell.cpp",
+					"workingDirectory" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev_v8/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Volumes/RevBigData/rev_programs/rev_mac/rev_android/android_sdks/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I../../../../libs/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++0x -O0 -fno-limit-debug-info  -fPIC    -c ",
 					"src" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev_v8/src/main/cpp/native-lib.cpp",
 					"workingDirectory" : "/Users/oliver/Downloads/rev_and/RevCampAnn/rev_v8/.cxx/cmake/debug/armeabi-v7a"
 				}
